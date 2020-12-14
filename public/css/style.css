@@ -222,7 +222,7 @@ header .intro-text {
 /* About Section */
 #about {
 	padding: 100px 0;
-	background: linear-gradient(to left, #e22061 0%, #FF9F8C 100%);
+	background: linear-gradient(to left, #D61367 0%, #FF9F8C 100%);
 	color: #fff;
 }
 #about h3 {
@@ -321,7 +321,7 @@ header .intro-text {
 /* Contact Section */
 #contact {
 	padding: 100px 0 60px 0;
-	background: linear-gradient(to left, #e22061 0%, #FF9F8C 100%);
+	background: linear-gradient(to left, #D61367 0%, #FF9F8C 100%);
 	color: rgba(255,255,255,.75);
 }
 #contact .section-title {
