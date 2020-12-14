@@ -6,11 +6,7 @@ export class Gallery extends Component {
       <div id="portfolio" className="text-center">
         <div className="container">
           <div className="section-title">
-            <h2>Gallery</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-              dapibus leonec.
-            </p>
+            <h2>My Projects</h2>
           </div>
           <div className="row">
             <div className="portfolio-items">
@@ -19,17 +15,18 @@ export class Gallery extends Component {
                   <div className="hover-bg">
                     {" "}
                     <a
-                      href="img/portfolio/01-large.jpg"
-                      title="Project Title"
+                      href="https://plantit-site.herokuapp.com/"
+                      target='blank'
+                      title="Plant-It"
                       data-lightbox-gallery="gallery1"
                     >
                       <div className="hover-text">
-                        <h4>Lorem Ipsum</h4>
+                        <h4>Plant-It</h4>
                       </div>
                       <img
-                        src="img/portfolio/01-small.jpg"
+                        src="img/portfolio/plantit.png"
                         className="img-responsive"
-                        alt="Project Title"
+                        alt="Plant-It"
                       />{" "}
                     </a>{" "}
                   </div>
@@ -40,17 +37,18 @@ export class Gallery extends Component {
                   <div className="hover-bg">
                     {" "}
                     <a
-                      href="img/portfolio/02-large.jpg"
-                      title="Project Title"
+                      href="https://next-step-employment-app.herokuapp.com/"
+                      target="blank"
+                      title="Next Step"
                       data-lightbox-gallery="gallery1"
                     >
                       <div className="hover-text">
-                        <h4>Adipiscing Elit</h4>
+                        <h4>Next Step</h4>
                       </div>
                       <img
-                        src="img/portfolio/02-small.jpg"
+                        src="img/portfolio/nextstep.png"
                         className="img-responsive"
-                        alt="Project Title"
+                        alt="Next Step"
                       />{" "}
                     </a>{" "}
                   </div>
@@ -61,17 +59,18 @@ export class Gallery extends Component {
                   <div className="hover-bg">
                     {" "}
                     <a
-                      href="img/portfolio/03-large.jpg"
-                      title="Project Title"
+                      href="https://mercspring.github.io/recipes-by-nutrition/"
+                      target="blank"
+                      title="Recipes by Nutrition"
                       data-lightbox-gallery="gallery1"
                     >
                       <div className="hover-text">
-                        <h4>Lorem Ipsum</h4>
+                        <h4>Recipes by Nutrition</h4>
                       </div>
                       <img
-                        src="img/portfolio/03-small.jpg"
+                        src="img/portfolio/recipes.png"
                         className="img-responsive"
-                        alt="Project Title"
+                        alt="Recipes by Nutrition"
                       />{" "}
                     </a>{" "}
                   </div>
@@ -82,17 +81,18 @@ export class Gallery extends Component {
                   <div className="hover-bg">
                     {" "}
                     <a
-                      href="img/portfolio/04-large.jpg"
-                      title="Project Title"
+                      href="https://mw-employee-directory.herokuapp.com/"
+                      target="blank"
+                      title="Employee Directory"
                       data-lightbox-gallery="gallery1"
                     >
                       <div className="hover-text">
-                        <h4>Lorem Ipsum</h4>
+                        <h4>Employee Directory</h4>
                       </div>
                       <img
-                        src="img/portfolio/04-small.jpg"
+                        src="img/portfolio/edhome.png"
                         className="img-responsive"
-                        alt="Project Title"
+                        alt="Employee Directory"
                       />{" "}
                     </a>{" "}
                   </div>
@@ -103,17 +103,18 @@ export class Gallery extends Component {
                   <div className="hover-bg">
                     {" "}
                     <a
-                      href="img/portfolio/05-large.jpg"
-                      title="Project Title"
+                      href="https://eat-da-burger-mw-app.herokuapp.com/"
+                      target="blank"
+                      title="Eat-Da-Burger"
                       data-lightbox-gallery="gallery1"
                     >
                       <div className="hover-text">
-                        <h4>Adipiscing Elit</h4>
+                        <h4>Eat-Da-Burger</h4>
                       </div>
                       <img
-                        src="img/portfolio/05-small.jpg"
+                        src="img/portfolio/eatdaburger.png"
                         className="img-responsive"
-                        alt="Project Title"
+                        alt="Eat-Da-Burger"
                       />{" "}
                     </a>{" "}
                   </div>
@@ -124,80 +125,18 @@ export class Gallery extends Component {
                   <div className="hover-bg">
                     {" "}
                     <a
-                      href="img/portfolio/06-large.jpg"
-                      title="Project Title"
+                      href="https://mw-googlebooksearch.herokuapp.com/"
+                      target="blank"
+                      title="Google Books Search"
                       data-lightbox-gallery="gallery1"
                     >
                       <div className="hover-text">
-                        <h4>Dolor Sit</h4>
+                        <h4>Google Books Search</h4>
                       </div>
                       <img
-                        src="img/portfolio/06-small.jpg"
+                        src="img/portfolio/googlebooks.png"
                         className="img-responsive"
-                        alt="Project Title"
-                      />{" "}
-                    </a>{" "}
-                  </div>
-                </div>
-              </div>
-              <div className="col-sm-6 col-md-4 col-lg-4">
-                <div className="portfolio-item">
-                  <div className="hover-bg">
-                    {" "}
-                    <a
-                      href="img/portfolio/07-large.jpg"
-                      title="Project Title"
-                      data-lightbox-gallery="gallery1"
-                    >
-                      <div className="hover-text">
-                        <h4>Dolor Sit</h4>
-                      </div>
-                      <img
-                        src="img/portfolio/07-small.jpg"
-                        className="img-responsive"
-                        alt="Project Title"
-                      />{" "}
-                    </a>{" "}
-                  </div>
-                </div>
-              </div>
-              <div className="col-sm-6 col-md-4 col-lg-4">
-                <div className="portfolio-item">
-                  <div className="hover-bg">
-                    {" "}
-                    <a
-                      href="img/portfolio/08-large.jpg"
-                      title="Project Title"
-                      data-lightbox-gallery="gallery1"
-                    >
-                      <div className="hover-text">
-                        <h4>Lorem Ipsum</h4>
-                      </div>
-                      <img
-                        src="img/portfolio/08-small.jpg"
-                        className="img-responsive"
-                        alt="Project Title"
-                      />{" "}
-                    </a>{" "}
-                  </div>
-                </div>
-              </div>
-              <div className="col-sm-6 col-md-4 col-lg-4">
-                <div className="portfolio-item">
-                  <div className="hover-bg">
-                    {" "}
-                    <a
-                      href="img/portfolio/09-large.jpg"
-                      title="Project Title"
-                      data-lightbox-gallery="gallery1"
-                    >
-                      <div className="hover-text">
-                        <h4>Adipiscing Elit</h4>
-                      </div>
-                      <img
-                        src="img/portfolio/09-small.jpg"
-                        className="img-responsive"
-                        alt="Project Title"
+                        alt="Google Books Search"
                       />{" "}
                     </a>{" "}
                   </div>

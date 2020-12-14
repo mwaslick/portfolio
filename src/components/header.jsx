@@ -1,13 +1,13 @@
 import React, { Component } from "react";
-
 export class Header extends Component {
   render() {
     return (
+      <div>
       <header id="header">
         <div className="intro">
           <div className="overlay">
             <div className="container">
-              <div className="row">
+              <div className="row">yarn
                 <div className="col-md-8 col-md-offset-2 intro-text">
                   <h1>
                     {this.props.data ? this.props.data.title : "Loading"}
@@ -17,7 +17,7 @@ export class Header extends Component {
                     {this.props.data ? this.props.data.paragraph : "Loading"}
                   </p>
                   <a
-                    href="#features"
+                    href="#about"
                     className="btn btn-custom btn-lg page-scroll"
                   >
                     Learn More
@@ -27,7 +27,10 @@ export class Header extends Component {
             </div>
           </div>
         </div>
+        
       </header>
+
+      </div>
     );
   }
 }
